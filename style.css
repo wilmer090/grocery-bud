@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #283959;
+}
+.container{
+	margin:auto;
+	margin-top:8rem;
+	background-color: #ffffff;
+	text-align: center;
+	max-width: 100%;
+	width: 50%;
+	border-radius: 15px;
+	padding:2rem;
+
+}
+h2{
+	padding-top:1rem;
+	letter-spacing: 5px;
+	color:hsl(205, 86%, 17%);
+}
+form{
+	padding: 20px 20px 40px 20px;
+}
+input[type='text']{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding:5px;
+	width:50%;
+	border:transparent;
+	background: hsl(210, 36%, 96%);
+	font-size: 15px;
+}
+#btn-submit{
+	border: transparent;
+	background-color: skyblue;
+	letter-spacing: 2px;
+	padding:5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border:transparent;
+	font-size: 15px;
+	margin-left: -3px;
+}
+.grocery-item{
+	color:hsl(209, 61%, 16%);
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin:0 0 8px 0;
+	padding:4px 16px 4px 16px;
+}
+.clrBtn{
+	border:hidden;
+	background-color: transparent;
+	color:hsl(360, 71%, 66%);
+	text-transform: capitalize;
+	font-size: 16px;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+.btn-delete{
+	color:hsl(360, 71%, 66%);
+	border:hidden;
+	cursor: pointer;
+}
+.alert-success{
+	font-size: 16px;
+	letter-spacing: 4px;
+	background-color:hsl(125, 71%, 66%);
+	color:hsl(205, 86%, 17%);
+	text-transform: capitalize;
+}
+.alert-danger{
+	font-size: 16px;
+	letter-spacing: 4px;
+	background-color:hsl(360, 71%, 66%);
+	color:hsl(205, 86%, 17%);
+	text-transform: capitalize;
+}
+.alert{
+	margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+}
